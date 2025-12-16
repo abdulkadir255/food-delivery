@@ -1,0 +1,26 @@
+.scrollBtn {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background: tomato;
+  color: #fff;
+  border-radius: 50%;
+  border: none;
+  width: 40px;
+  height: 40px;
+  cursor:pointer;
+  font-size:13px;
+}
+
+@media (max-width:1050px) {
+    .scrollBtn{
+  font-size: 10px;
+
+    }
+}
+@media (max-width:400) {
+    .scrollBtn{
+  font-size: px;
+
+    }
+}
