@@ -4,10 +4,10 @@ import Navbar from './component/Navbar/Navbar'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/home/Home'
 import Cart from './pages/cart/Cart'
-import placeOrder from './pages/placeOrder/placeOrder'
 import Footer from './component/Footer/Footer'
 import ScrollToTop from './ScrollTop/ScrollToTop'
 import Login from './component/LoginP/Login'
+import PlaceOrder from './pages/placeOrder/placeOrder'
 
 function App() {
   const [showLogin,setShowLogin] = useState(false)

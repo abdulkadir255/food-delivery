@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import "./PlaceOrder.css"
 import { StoreContext } from '../../context/StoreContext'
 
-const placeOrder = () => {
+const PlaceOrder = () => {
   const {getTotalCartAmount} = useContext(StoreContext)
   return (
     <form className='place-order'>
@@ -51,4 +51,4 @@ const placeOrder = () => {
   )
 }
 
-export default placeOrder
+export default PlaceOrder
